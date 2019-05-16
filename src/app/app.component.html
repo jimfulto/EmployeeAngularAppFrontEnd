@@ -1,0 +1,24 @@
+<!--The content below is only a placeholder and can be replaced.-->
+<nav class="navbar navbar-expand-lg navbar-inverse bg-light">
+
+  <!-- Nav bar tabs are active when user clicks on it by simply puting 
+ routerLinkActive='active' in <li> tag. Nothing else needs to do -->
+  <ul class="nav navbar-nav">
+    <li [routerLinkActive]="['active']">
+      <a [routerLink]="['employees']">
+        <span class="glyphicon glyphicon-user"></span> Employees
+      </a>
+    </li>
+  </ul>
+
+</nav>
+
+<!-- The RouterOutlet is a directive from the router library that is used like a component. 
+    It acts as a placeholder that marks the spot in the template where the router should display the components for that outlet. -->
+<router-outlet></router-outlet>
+
+
+<!-- <footer [ngClass]="'page-footer font-small blue pt-4'">
+    @copyright 2019
+</footer>
+ -->

@@ -1,0 +1,29 @@
+[
+    {
+        "empID": 1,
+        "name": "john",
+        "address": "asdasd",
+        "city": "someCity",
+        "state": "NJ",
+        "zip": "07745",
+        "hireDate": "2001-02-24"
+    },
+    {
+        "empID": 2,
+        "name": "john2",
+        "address": "asdasd",
+        "city": "someCity",
+        "state": "NJ",
+        "zip": "07745",
+        "hireDate": "2001-02-24"
+    },
+    {
+        "empID": 3,
+        "name": "john2",
+        "address": "asdasd",
+        "city": "someCity",
+        "state": "NJ",
+        "zip": "07745",
+        "hireDate": "2001-02-24"
+    }
+]
