@@ -1,0 +1,7 @@
+---
+applications:
+- name: EmployeeAngularAppFrontEnd
+memory: 512M
+disk_quota: 1024M
+instances: 1
+buildpack: https://github.com/cloudfoundry/staticfile-buildpack.git
