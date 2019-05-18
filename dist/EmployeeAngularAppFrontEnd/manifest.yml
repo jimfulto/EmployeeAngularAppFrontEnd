@@ -4,4 +4,5 @@ applications:
 memory: 800M
 disk_quota: 1024M
 instances: 1
-buildpack: https://github.com/cloudfoundry/staticfile-buildpack.git
+buildpack: https://github.com/cloudfoundry/nodejs-buildpack
+path: dist
